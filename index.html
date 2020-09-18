@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Installation</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="style.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container register">
+        <div class="row">
+            <div class="col-md-3 register-left">
+                <img src="https://clientx.fr/assets/images/Favicon-Light.png" alt="" />
+                <h3>Bienvenue</h3>
+                <p>Configurer votre compte Adminstrateur.<br /></p>
+
+            </div>
+            <div class="col-md-9 register-right">
+                <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Compte</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" id="eula-tab" data-toggle="tab" href="#eula" role="tab" aria-controls="eula" aria-selected="false">EULA</a>
+                    </li>
+
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <h3 class="register-heading">Installation</h3>
+                        <div class="row register-form">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Nom" value="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Prénom" value="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="Mot de passe" value="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="Confirmation"
+                                        value="" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Nom de l'hébergeu
+                                    r">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Licence">
+                                </div>
+                                
+                                <div class="form-group">
+                                    <input type="email" name="email" id="email" class="form-control" placeholder="Adresse E-Mail">
+                                </div>
+
+                                <input type="submit" class="btnRegister" value="Installer" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane active" id="eula" role="tabpanel" aria-labelledby="eula-tab">
+                        <h3 class="register-heading">EULA</h3>
+                            <div class="row register-form">
+                                <p id="eula-text">
+                                </p>
+                                <input type="submit" class="btnRegister d-none" id="accepteula" value="J'accepte"  />
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/dist/main.js"></script>
+</body>
+
+</html>

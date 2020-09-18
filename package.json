@@ -1,0 +1,23 @@
+{
+  "name": "install-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "http": "0.0.1-security",
+    "jquery": "^3.5.1",
+    "markdown": "^0.5.0",
+    "markdown-it": "^11.0.0"
+  }
+}
